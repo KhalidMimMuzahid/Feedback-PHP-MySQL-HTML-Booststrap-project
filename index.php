@@ -64,19 +64,25 @@ if (isset($_POST['submit'])) {
         <label for="name" class="form-label">Name</label>
         <input type="text" class="form-control <?php echo !$nameErr ?:
           'is-invalid'; ?>" id="name" name="name" placeholder="Enter your name" value="<?php echo $name; ?>">
-
+        <div id="validationServerFeedback" class="invalid-feedback">
+          Please provide a valid name.
+        </div>
       </div>
       <div class="mb-3">
         <label for="email" class="form-label">Email</label>
         <input type="email" class="form-control <?php echo !$emailErr ?:
           'is-invalid'; ?>" id="email" name="email" placeholder="Enter your email" value="<?php echo $email; ?>">
-
+        <div id="validationServerFeedback" class="invalid-feedback">
+          Please provide a email.
+        </div>  
     </div>
       <div class="mb-3">
         <label for="body" class="form-label">Feedback</label>
         <textarea class="form-control <?php echo !$bodyErr ?:
           'is-invalid'; ?>" id="body" name="body" placeholder="Enter your feedback"><?php echo $body; ?></textarea>
-
+        <div id="validationServerFeedback" class="invalid-feedback">
+          Please provide your feedback.
+        </div>    
     </div>
 
       <div class="mb-3">
