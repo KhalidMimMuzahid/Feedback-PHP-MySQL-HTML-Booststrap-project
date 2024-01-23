@@ -17,15 +17,15 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
          <li class="nav-item">
-              <a class="nav-link" href="/feedback-php-mysql/index.html">Home</a>
+              <a class="nav-link" href="/feedback-php-mysql/index.php">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/feedback-php-mysql/feedback.html"
+              <a class="nav-link" href="/feedback-php-mysql/feedback.php"
                 >Feedback</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/feedback-php-mysql/about.html"
+              <a class="nav-link" href="/feedback-php-mysql/about.php"
                 >About</a
               >
             </li>
